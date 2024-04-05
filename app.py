@@ -21,7 +21,7 @@ image = Image.open("./logo/lyzr-logo.png")
 st.image(image, width=150)
 
 # App title and introduction
-st.title("Podcast Series Topics")
+st.title("Podcast Series Topics by Lyzr")
 st.markdown("### Welcome to the Podcast Series Topics!")
 st.markdown("Podcast Series Topics app curates tailored podcast series focusing on industry-specific themes.!!!")
 
