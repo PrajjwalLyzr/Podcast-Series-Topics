@@ -65,7 +65,7 @@ def podcast_series(industry, target_audience):
         output_type=OutputType.TEXT,
         input_type=InputType.TEXT,
         model=open_ai_model_text,
-        instructions=f"Use the description provided, Based on the {industry} and {target_audience}, suggest 10 engaging topics for a podcast series. [IMPORTANT!] Setup the events in a detailed manner",
+        instructions=f"Use the description provided, Based on the {industry} and {target_audience}, suggest 5 episodes of 3 enganging topic for a podcast series. [IMPORTANT!] Setup the events in a detailed manner",
         log_output=True,
         enhance_prompt=False,
         default_input=industry
